@@ -1,0 +1,17 @@
+.carousel-item section {
+    width: 100%;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(6, min-content);
+    gap: 130px;
+}
+
+.cards {
+    width: 100px;
+    height: 250px;
+    background-color: red;
+}
+
+a {
+    filter: opacity(1) drop-shadow(0 0 0 red);
+}
