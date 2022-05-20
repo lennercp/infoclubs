@@ -15,3 +15,40 @@
 a {
     filter: opacity(1) drop-shadow(0 0 0 red);
 }
+
+header{
+    justify-content: space-around
+    align-items: center
+}
+
+header{
+    background:#082369
+}
+
+nav {
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 17px;
+}
+
+nav a {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #99330E;
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: green;
+}
