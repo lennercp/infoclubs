@@ -17,45 +17,61 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div id="mainslider" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#mainslider" data-slide-to="0" class="active"></li>
-            <li data-target="#mainslider" data-slide-to="1"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <section>
-                    <div class="cards"></div>
-                    <div class="cards"></div>
-                    <div class="cards"></div>
-                    <div class="cards"></div>
-                    <div class="cards"></div>
-                    <div class="cards"></div>
-                </section>
-            </div>
-            <div class="carousel-item">
-                <section>
-                    <div class="cards"></div>
-                    <div class="cards"></div>
+    <main>
+        <h1>Escolha o Time!</h1>
+        <h3>Clique no card do time que te interessa e será redirecionado a página que contém mais informações sobre este
+        </h3>
+        <div id="mainslider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#mainslider" data-slide-to="0" class="active"></li>
+                <li data-target="#mainslider" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <section>
+                        <a href="/times/liverpool">
+                            <div class="cards">
+                                <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/0/0c/Liverpool_FC.svg/1200px-Liverpool_FC.svg.png"
+                                    alt="">
+                                <h2>Liverpool</h2>
+                                <p>Inglaterra</p>
+                            </div>
+                        </a>
+                        <div class="cards"></div>
+                        <div class="cards"></div>
+                        <div class="cards"></div>
+                        <div class="cards"></div>
+                    </section>
+                </div>
+                <div class="carousel-item">
+                    <section>
+                        <a href="/times/liverpool">
+                            <div class="cards">
+                                <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/0/0c/Liverpool_FC.svg/1200px-Liverpool_FC.svg.png"
+                                    alt="">
+                                <h2>Liverpool</h2>
+                                <p>Inglaterra</p>
+                            </div>
+                        </a>
+                        <div class="cards"></div>
 
-                </section>
+                    </section>
+                </div>
             </div>
+            <a class="carousel-control-prev" href="#mainslider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#mainslider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <a class="carousel-control-prev" href="#mainslider" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#mainslider" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-    <!-- JavaScript Bundle with Popper -->
+    </main>
 
 </body>
 
