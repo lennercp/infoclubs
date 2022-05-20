@@ -40,7 +40,7 @@ nav a:active {
 }
 
 main {
-    height: 350px;
+    height: 470px;
 }
 
 h1,
@@ -97,4 +97,11 @@ a {
 
 .cards img {
     max-height: 50%;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background: gray;
+    height: 115px
 }
