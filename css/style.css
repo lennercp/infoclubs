@@ -1,17 +1,40 @@
-.carousel-item section {
-    width: 100%;
-    height: 250px;
-    display: grid;
-    grid-template-columns: repeat(6, min-content);
-    gap: 130px;
+main {
+    height: 350px;
+    padding: 0px 60px
+}
+
+h1,
+h3 {
+    text-align: center
+}
+
+.glider-contain {
+    height: 370px;
+}
+
+.glider-track {
+    column-gap: 70px;
+    padding: 50px 40px 50px 30px;
+}
+
+.glider-track .cards:last-child {
+    margin-right: 50px;
+}
+
+.glider-track,
+.glider.draggable {
+    height: 100%;
 }
 
 .cards {
-    width: 100px;
-    height: 250px;
-    background-color: red;
+    width: 150px !important;
+    height: 250px !important;
+    background-color: #fff;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
+    border-radius: 10px;
 }
 
+<<<<<<< HEAD
 a {
     filter: opacity(1) drop-shadow(0 0 0 red);
 }
@@ -52,3 +75,23 @@ nav a:hover {
 nav a:active {
     color: green;
 }
+=======
+.cards:hover {
+    transform: scale(1.25);
+}
+
+.cards a {
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-decoration: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards img {
+    max-height: 50%;
+}
+>>>>>>> ac9b883e9063243f224973c6df7ae0f9740163c5
