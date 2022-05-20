@@ -4,7 +4,7 @@ new Glider($simpleCarousel, {
     slidesToShow: 1,
     slidesToScroll: 1,
     draggable: true,
-    itemWidth: 200,
+    itemWidth: 220,
     exactWidth: true,
     dots: ".dots",
     arrows: {
