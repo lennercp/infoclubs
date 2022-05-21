@@ -73,12 +73,6 @@ h3 {
     border-radius: 10px;
 }
 
-a {
-    filter: opacity(1) drop-shadow(0 0 0 red);
-}
-
-
-
 .cards:hover {
     transform: scale(1.25);
 }
@@ -90,12 +84,17 @@ a {
     text-decoration: none;
 
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .cards img {
     max-height: 50%;
+}
+
+.cards h2 {
+    text-align: center;
 }
 
 footer {
