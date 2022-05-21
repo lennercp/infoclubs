@@ -39,7 +39,7 @@ nav a:active {
 }
 
 main {
-    height: 470px;
+    height: auto;
 }
 
 h1,
@@ -101,5 +101,12 @@ footer {
     color: white;
     text-align: center;
     background: gray;
-    height: 115px
+    height: 115px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    body>* {
+        padding: 0 30px
+    }
 }
