@@ -24,14 +24,13 @@ nav li:first-child {
 
 nav a {
     color: white;
-    text-shadow: black 0.1em 0.1em 0.2em;
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #99330E;
+    color: black;
     text-decoration: underline;
 }
 
