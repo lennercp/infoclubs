@@ -104,9 +104,3 @@ footer {
     height: 115px;
     margin-top: 50px;
 }
-
-@media screen and (max-width: 500px) {
-    body>* {
-        padding: 0 30px
-    }
-}

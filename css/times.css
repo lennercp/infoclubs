@@ -123,8 +123,13 @@ h3 p {
         row-gap: 50px;
     }
 
-    .origem,
-    .titulos {
+    main>* {
         height: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    body>* {
+        padding: 0 20px
     }
 }
