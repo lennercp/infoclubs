@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -34,18 +39,6 @@ nav a:active {
     color: green;
 }
 
-.info h2{
-    text-align:center
-}
-.info p{
-    margin-left: 20px;
-}
-.origem p{
-    text-align: justify;
-}
-.origem{
-    padding: 10px;
-}
 main {
     display: flex;
     justify-content: space-between;
@@ -62,9 +55,27 @@ main>* {
 .info,
 .titulos {
     width: 20%;
-
+    overflow-y: auto;
 }
 
 .origem {
     width: 40%;
+}
+
+.info h2 {
+    text-align: center
+}
+
+.info p {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.origem p {
+    text-align: justify;
+}
+
+.origem,
+.titulos {
+    padding: 10px;
 }
