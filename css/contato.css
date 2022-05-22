@@ -61,10 +61,17 @@ div textarea,
 div button {
     margin-top: 5px;
     width: 250px;
-    padding: 5px;
+    padding: 8px;
     filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
     border: none;
     border-radius: 4px;
+}
+
+div input:focus,
+div textarea:focus,
+div button:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
 }
 
 div textarea {
@@ -72,7 +79,7 @@ div textarea {
 }
 
 div button {
-    width: 260px;
+    width: 266px;
     font-size: 18px;
 }
 
