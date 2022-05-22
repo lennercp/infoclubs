@@ -3,11 +3,9 @@
     padding: 0;
 }
 
-body>* {
-    padding: 0px 60px
-}
 
 header {
+    padding: 0px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,73 +31,40 @@ nav a:hover {
     color: orange;
 }
 
-main {
-    height: auto;
-}
-
 h1 {
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    background: blue;
+    padding: 10px 0px;
     font-family: 'Bree Serif';
     font-size: 40px;
 }
 
-h3 {
-    font-family: 'Arial';
-    font-size: 17px;
-}
-
-h1,
-h3 {
-    text-align: center
-}
-
-.glider-contain {
-    height: 370px;
-}
-
-.glider-track {
-    column-gap: 70px;
-    padding: 50px 40px 50px 30px;
-}
-
-.glider-track .cards:last-child {
-    margin-right: 50px;
-}
-
-.glider-track,
-.glider.draggable {
-    height: 100%;
-}
-
-.cards {
-    width: 150px !important;
-    height: 250px !important;
-    background-color: #fff;
-    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
-    border-radius: 10px;
-}
-
-.cards:hover {
-    transform: scale(1.25);
-}
-
-.cards a {
-    width: 100%;
-    height: 100%;
-    color: black;
-    text-decoration: none;
-
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.cards img {
-    max-height: 50%;
-}
-
-.cards h2 {
+div {
+    padding-top: 10px;
+    color: white;
     text-align: center;
+    background: rgb(112, 100, 100);
+    height: 400px;
+}
+
+div input {
+    height: 20px;
+}
+
+div input,
+div textarea {
+    margin-top: 5px;
+    width: 250px;
+    padding: 5px;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
+    border: none;
+    border-radius: 4px;
+}
+
+div textarea {
+    resize: vertical;
 }
 
 footer {
@@ -107,7 +72,6 @@ footer {
     text-align: center;
     background: gray;
     height: 115px;
-    margin-top: 50px;
 }
 
 @media (max-width: 500px) {
